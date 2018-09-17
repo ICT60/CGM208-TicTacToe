@@ -17,6 +17,13 @@ namespace TicTacToe
             GameMenu.GreetMenu.Close();
         }
 
+        void btnPlayerVSComputer_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Game.Start();
+            GameMenu.PlayerVsComputerBoard.Show();
+        }
+
         void btnPlayerVSPlayer_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -26,7 +33,10 @@ namespace TicTacToe
 
         void btnAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Author : Chatchai Saratakij\n (6002526)");
+            MessageBox.Show(
+                "Author : \n" +
+                "Chatchai Saratakij (6002526)"
+            );
         }
     }
 }

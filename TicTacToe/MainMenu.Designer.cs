@@ -56,6 +56,7 @@
             this.btnPlayerVSComputer.TabIndex = 0;
             this.btnPlayerVSComputer.Text = "Player vs Computer";
             this.btnPlayerVSComputer.UseVisualStyleBackColor = true;
+            this.btnPlayerVSComputer.Click += new System.EventHandler(this.btnPlayerVSComputer_Click);
             // 
             // groupBox2
             // 

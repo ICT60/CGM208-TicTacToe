@@ -60,6 +60,12 @@
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Player.cs" />
+    <Compile Include="PlayerVsComputerBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerVsComputerBoard.Designer.cs">
+      <DependentUpon>PlayerVsComputerBoard.cs</DependentUpon>
+    </Compile>
     <Compile Include="PlayerVsPlayerBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerVsComputerBoard.resx">
+      <DependentUpon>PlayerVsComputerBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlayerVsPlayerBoard.resx">
       <DependentUpon>PlayerVsPlayerBoard.cs</DependentUpon>

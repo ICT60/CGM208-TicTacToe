@@ -15,6 +15,7 @@ namespace TicTacToe
         {
             GameMenu.GreetMenu = this;
             GameMenu.MainMenu = new MainMenu();
+            GameMenu.PlayerVsComputerBoard = new PlayerVsComputerBoard();
             GameMenu.PlayerVsPlayerBoard = new PlayerVsPlayerBoard();
         }
 
